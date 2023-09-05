@@ -18,7 +18,7 @@ def send_messages(chat_id, text):
     return response
 
 def get_openai_response(prompt):
-    model_engine = "davinci:ft-lingui-2023-09-04-23-24-22"
+    model_engine = "NAME-LLM"
     response = openai.Completion.create(
         engine = model_engine,
         prompt = prompt,
